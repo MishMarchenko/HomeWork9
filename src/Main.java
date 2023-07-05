@@ -16,12 +16,9 @@ public class Main {
         for (int i = 0; i < array.size(); i++){
             System.out.println(array.get(i));
         }
-//        array.remove(4);
-//        System.out.println(array.getFirst());
-//        System.out.println(array.getLast());
-
-
-
-//        System.out.println(array.size());
+        array.remove(4);
+        System.out.println(array.getFirst());
+        System.out.println(array.getLast());
+        System.out.println(array.size());
     }
 }
